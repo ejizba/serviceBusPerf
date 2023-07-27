@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "helloWorldQueue",
+      "connection": "serviceBus_APPSETTING"
+    }
+  ],
+  "scriptFile": "../dist/ServiceBusQueueTrigger1/index.js"
+}
